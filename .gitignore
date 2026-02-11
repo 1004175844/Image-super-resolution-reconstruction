@@ -1,0 +1,50 @@
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Generated image comparison/debug outputs
+imgs/h5_debug_samples/
+imgs/model_debug_case/
+imgs/paper_color_compare_x3/
+imgs/bicubic_batch_demo/
+imgs/bicubic_batch_demo_skip/
+
+# Large datasets and checkpoints (default: do not commit)
+*.h5
+*.pt
+*.ckpt
+
